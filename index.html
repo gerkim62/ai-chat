@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Chat App</title>
+   <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div id="chat-container">
+      
+      <div class="header">
+        <span>AI Chat App</span>
+        <a href="https://visitcount.itsvg.in">
+          <img src="https://visitcount.itsvg.in/api?id=gerkim62&label=Views&pretty=false" />
+        </a>
+        <div class="header-buttons">
+          <button id="restart-button"><i class="fas fa-redo"></i>Restart</button>
+          <button id="download-button"><i class="fas fa-download"></i></button>
+          <button id="settings-button"><i class="fas fa-cog"></i></button>
+        </div>
+      </div>
+      <div id="chat-messages">
+        <div id="placeholder-message">
+          <i class="fas fa-comments"></i>
+          Chat with your AI!
+        </div>
+      </div>
+      <div id="user-input">
+        <input type="text" id="message-input" placeholder="Type your message..." />
+        <button id="send-button"><i class="fas fa-paper-plane"></i>Send</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
